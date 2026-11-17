@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="profile-header">
+        <h1>ALMAS SAAD ALOMARI</h1>
+        <p class="job-title">Information Technology Student</p>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button id="theme-button">Switch to Dark Mode</button>
+        <button id="print-button">Print / Save as PDF</button>
+
+    </header>
+
+    <main class="cv-container">
+
+
+        <section id="about" class="cv-section">
+    <h2>About Me</h2>
+
+    <p>
+        I am an IT student. I enjoy reading, and my goal is to learn HTML and CSS.
+    </p>
+
+    <p id="more-text" style="display: none;">
+        I am interested in programming, web development, and technology.
+        I enjoy learning new working on projects to improve my
+        technical skills.
+    </p>
+
+    <button id="more-button">Show More</button>
+        </section>
+
+        <section id="education" class="cv-section">
+            <h2>Education</h2>
+
+            <article class="education-item">
+                <h3>King Abdulaziz University</h3>
+                <p>Bachelor of Information Technology</p>
+                <p>Expected Graduation: 2027</p>
+            </article>
+        </section>
+
+        <section id="skills" class="cv-section">
+            <h2>Skills</h2>
+
+            <ul class="skills-list">
+                <li>Figma</li>
+                <li>JavaFX</li>
+                <li>Time Management</li>
+                <li>Problem Solving</li>
+            </ul>
+        </section>
+
+       <section id="projects" class="cv-section">
+    <h2>Projects</h2>
+
+    <div id="filter-buttons">
+        <button id="all-button">All</button>
+        <button id="web-button">Web</button>
+        <button id="programming-button">Programming</button>
+    </div>
+
+    <div id="projects-logic"></div>
+        </section>   
+
+        <section id="contact" class="cv-section">
+            <h2>Contact</h2>
+
+            <p>
+                Email:
+                <a href="mailto:student@example.com">almas.saadalomari@gmail.com</a>
+            </p>
+
+            <p>
+                GitHub:
+                <a href="#">github.com/almas-saad</a>
+            </p>
+
+            <p>
+                LinkedIn:
+                <a href="#">https://www.linkedin.com/in/almas-saad-346102386</a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 ALMAS SAAD ALOMARI</p>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
